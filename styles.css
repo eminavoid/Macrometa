@@ -133,6 +133,10 @@ section div div h4{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    transition: all 1s;
+}
+.winicon-icon:hover{
+    transform: scale(1.1);
 }
 #teachers{
     height: auto;
@@ -187,6 +191,10 @@ section div div h4{
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
+    transition: all 1s;
+}
+.teacherscomment-div img:hover{
+    transform: scale(1.1);
 }
 .teacherscomment-div h3{
     text-transform: capitalize;
@@ -198,8 +206,6 @@ font-size: 22px;
 padding-top: 20px;
 text-transform: initial;
 }
-
-
 footer{
     height: 200px;
     width: 100%;
@@ -278,8 +284,9 @@ footer{
     line-height: 25px;
 }
 .howitworks-main{
-    height: 2500px;
+    height: auto;
     background-color: #0397d6;
+
 }
 .how-main-title{
     font-weight: 800;
@@ -331,8 +338,74 @@ footer{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    transition: all 1s;
 }
-
+.flex-method-container img:hover{
+    transform: scale(1.1);
+}
+.objetive-container{
+    width: 100%;
+    height: auto;
+}
+.objetive{
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.objetive-subtitle{
+    color: #00ff22;
+    padding-top: 76px;
+    font-size: 30px;
+    font-style: oblique;
+}
+.objetive-p{
+    padding: 24px;
+    padding-top: 38px;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+}
+.testing-title{
+    text-transform: uppercase;
+    font-size: 110px;
+    text-align: center;
+    padding-top:20px; 
+    padding-bottom: 30px;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
+}
+.testing-img{
+    height: auto;
+    width: 100%;
+    color: azure;
+    padding-bottom: 30px; 
+}
+.testing-img img{
+    height: 400px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 1s;
+}
+.testing-img img:hover{
+    transform: scale(1.1);
+}
+.testing-text{
+    height: auto;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    margin-bottom: 100px;
+}
+.testing-text p{
+    padding-bottom: 20px; 
+}
 
 
 @media only screen and (min-width:1190px) and (max-width: 1700px){
