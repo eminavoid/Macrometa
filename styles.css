@@ -291,7 +291,7 @@ footer{
 .how-main-title{
     font-weight: 800;
     /* background-color: rgba(51, 126, 126, 0.209); */
-    padding-top: 70px;
+    padding-top: 50px;
     padding-left: 150px;
     font-size: 120px;
     text-transform: uppercase;
@@ -315,6 +315,8 @@ footer{
     justify-content: center;
     align-items: center;
     /* background-color: #d646037e; */
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .flex-method-container{
     width: 300px;
@@ -527,5 +529,94 @@ footer{
         padding-left: 0px;
         height: 760px;
         width: 350px;
+    }
+}
+@media only screen and (max-width: 1339px){
+    .how-main-title{
+        font-weight: 800;
+        /* background-color: rgba(51, 126, 126, 0.209); */
+        padding-top: 50px;
+        padding-left: 100px;
+        font-size: 120px;
+        text-transform: uppercase;
+    }
+    .flex-title{
+        font-size: 30px;
+        padding-left: 100px;
+        padding-top: 50px;
+        text-transform: capitalize;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .how-main-title{
+        font-weight: 800;
+        /* background-color: rgba(51, 126, 126, 0.209); */
+        padding-top: 50px;
+        padding-left: 70px;
+        font-size: 120px;
+        text-transform: uppercase;
+    }
+    .flex-title{
+        font-size: 30px;
+        padding-left: 70px;
+        padding-top: 50px;
+        text-transform: capitalize;
+    }
+}
+@media only screen and (max-width: 740px){
+    .how-main-title{
+        font-weight: 800;
+        /* background-color: rgba(51, 126, 126, 0.209); */
+        padding-top: 50px;
+        padding-left: 20px;
+        font-size: 120px;
+        text-transform: uppercase;
+    }
+    .flex-title{
+        font-size: 30px;
+        padding-left: 20px;
+        padding-top: 50px;
+        text-transform: capitalize;
+    }
+}
+@media only screen and (max-width: 500px){
+    .how-main-title{
+        font-weight: 800;
+        /* background-color: rgba(51, 126, 126, 0.209); */
+        padding-top: 50px;
+        padding-left: 5px;
+        font-size: 80px;
+        text-transform: uppercase;
+    }
+    .flex-title{
+        font-size: 22px;
+        padding-left: 5px;
+        padding-top: 50px;
+        text-transform: capitalize;
+    }
+    .flexcontainer-research{
+        padding: 0px;
+    }
+    .testing-title{
+        font-size: 80px;
+    }
+    .testing-img img{
+        height: 200px;
+
+    }
+    .testing-text{
+        font-size: 20px;
+        width: 80%;
+    }
+    .objetive{
+        width: 300px;
+        height: 300px;
+    }
+    .objetive-subtitle{
+        padding-top: 30px;
+    }
+    .objetive-p{
+        padding-top: 26px;
+        font-size: 18px;
     }
 }
