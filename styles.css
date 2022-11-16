@@ -589,8 +589,6 @@ footer {
   border: 2px solid #e1e8ee;
   border-radius: 6px;
   background-position: 85% 50%;
-  -moz-appearance: none;
-  -webkit-appearance: none;
 }
 
 .month select {
