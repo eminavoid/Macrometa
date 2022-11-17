@@ -466,31 +466,36 @@ footer {
 }
 
 .main-pricing {
-  height: 1000px;
+  height: auto;
   width: 100%;
-  background-image: url(img/pricing-main.jpg);
+  background-image: url(img/pricing-main-2.jpg);
   background-size: cover;
   background-attachment: fixed;
   letter-spacing: 1px;
+  background-position: 50%;
+}
+
+.main-pricing-fade {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 800px, black 95%);
+  height: auto;
 }
 
 .pricing-prev-title {
-  display: block;
   height: 100px;
-  font-size: 30px;
+  font-size: 70px;
   width: 100%;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 100px;
   text-transform: capitalize;
   color: white;
-  text-shadow: 0 0 5px black;
+  text-shadow: 0 0 10px rgb(151, 0, 201);
 }
 
 .price-container-container {
   display: flex;
   justify-content: center;
-  height: 500px;
+  height: 420px;
   width: 100%;
 }
 
@@ -504,6 +509,7 @@ footer {
 .price-title {
   text-align: center;
   font-size: 40px;
+  font-weight: bolder;
 }
 
 .price-title {
@@ -520,11 +526,13 @@ footer {
 
 .price-numbers {
   width: 100%;
-  font-size: 60px;
+  font-size: 80px;
   text-align: center;
   padding-top: 20px;
   color: #fff700;
-  text-shadow: 0 0 5px black;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 15px rgb(151, 0, 201);
+  font-weight: bold;
 }
 
 .price-forms {
@@ -535,8 +543,8 @@ footer {
 /* Credit Card */
 .credit-card {
   width: 100%;
-  height: 400px;
-  margin: 60px auto 0;
+  height: 200px;
+  margin: 40px auto 0;
 }
 
 .form-body {
@@ -617,13 +625,77 @@ footer {
   border-color: transparent;
   border-radius: 6px;
   margin-bottom: 10px;
-  background: #e3e700;
+  background: rgb(191, 0, 255);
+  transition: 0.5s;
+}
+
+.proceed-btn:hover {
+  background: rgb(210, 73, 255);
 }
 
 .proceed-btn a {
   text-decoration: none;
   color: rgb(0, 0, 0);
-  text-shadow: 0 0 5px white;
+  text-shadow: 0 0 10px white;
+}
+
+.pricing-refund {
+  width: 100%;
+  height: 1000px;
+  text-align: center;
+}
+
+.pricing-refund h2 {
+  font-size: 50px;
+  color: white;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.79);
+  padding-bottom: 40px;
+  text-transform: capitalize;
+}
+
+.refund-explain-cont-inline {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 70px;
+}
+
+.refund-img {
+  height: 200px;
+  padding: 10px;
+}
+
+.cont-refund-explain {
+  width: 540px;
+  padding: 10px;
+}
+
+.refund-explain {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 11px rgb(0, 0, 0);
+  text-transform: lowercase;
+}
+
+.refund-box-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.refund-box-div p {
+  width: 700px;
+  border: 3px solid rgb(210, 73, 255);
+  border-radius: 10px;
+  padding: 30px;
+  font-size: 30px;
+  color: white;
+  text-shadow: 0 0 20px black;
 }
 
 @media only screen and (min-width: 1190px) and (max-width: 1700px) {
@@ -662,7 +734,7 @@ footer {
     margin-right: 90px;
   }
 }
-@media only screen and (min-width: 561px) and (max-width: 820px) {
+@media only screen and (min-width: 561px) and (max-width: 856px) {
   header {
     font-size: 20px;
   }
@@ -673,7 +745,7 @@ footer {
     margin-right: 5px;
   }
 }
-@media only screen and (min-width: 300px) and (max-width: 560px) {
+@media only screen and (min-width: 300px) and (max-width: 640px) {
   header {
     height: 80px;
   }
@@ -833,6 +905,51 @@ footer {
   .objetive-p {
     padding-top: 26px;
     font-size: 18px;
+  }
+}
+@media only screen and (max-width: 888px) {
+  .pricing-prev-title {
+    font-size: 60px;
+    margin-bottom: 40px;
+  }
+  .refund-explain-cont-inline {
+    width: 500px;
+  }
+  .price-container {
+    width: 600px;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .price-numbers {
+    font-size: 50px;
+  }
+  .refund-explain-cont-inline {
+    width: 300px;
+  }
+  .cont-refund-explain {
+    width: 400px;
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .pricing-prev-title {
+    padding-bottom: 100px;
+    font-size: 50px;
+  }
+  .refund-explain {
+    font-size: 24px;
+  }
+  .refund-box-div {
+    padding: 15px;
+  }
+  .pricing-refund h2 {
+    font-size: 35px;
+  }
+  .cont-refund-explain {
+    width: 100%;
+  }
+  .price-container {
+    height: 380px;
   }
 }
 
