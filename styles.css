@@ -748,6 +748,7 @@ footer {
   letter-spacing: 0.5px;
   color: #000000;
   text-shadow: rgb(49, 49, 49) 0 0 0.5px;
+  text-align: justify;
 }
 
 @media only screen and (min-width: 1190px) and (max-width: 1700px) {
@@ -1002,6 +1003,25 @@ footer {
   }
   .price-container {
     height: 380px;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .faq-center-div {
+    width: 95%;
+  }
+  .faq-h1 {
+    font-size: 36px;
+  }
+  .faq-h2 {
+    font-size: 20px;
+  }
+  .faq-p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .faq-h1 {
+    font-size: 32px;
   }
 }
 
