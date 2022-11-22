@@ -658,9 +658,90 @@ footer{
     text-shadow: rgb(49, 49, 49) 0 0 .5px;
     text-align: justify;
 }
-
-
-
+.courses-main{
+    width: 100%;
+    background-image: url(img/courses-wall.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50%;
+    height: auto;
+    padding-bottom: 100px;
+}
+.responsive-iframe-container{
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+// irfame responsive
+.iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    width: 100%;
+    overflow: hidden;
+}
+.iframe-container iframe {
+    position: absolute;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.courses-welcome-h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    color: rgb(255, 0, 0);
+    text-shadow: #000 0px 0px 3px;
+    letter-spacing: 1px;
+    font-size: 50px;
+}
+.courses-subtitle{
+    text-transform: capitalize;
+    color: rgb(255, 0, 0);
+    font-size: 60px;
+    padding: 50px 0px 40px;
+    text-align: center;
+    text-shadow: rgb(0, 0, 0) 0px 0px 3px;
+    letter-spacing: 2px;
+}
+.courses-flex-container{
+    width: 100%;
+    height: auto;
+    // background-color: rgba(255, 255, 255, 0.512);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    // align-items: center;
+    align-content: center;
+}
+.course-container{
+    height: 440px;
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    margin: 10px;
+}
+.course-video{
+    width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+iframe{
+    border-radius: 30px;
+}
+.course-description{
+    margin: 20px;
+    text-align: justify;
+    font-size: 22px;
+    color: white;
+}
 
 
 
