@@ -667,8 +667,8 @@ footer{
     height: auto;
     padding-bottom: 100px;
 }
-.responsive-iframe-container{
-    width: 800px;
+.welcome-iframe-container{
+    width: 900px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -742,6 +742,7 @@ iframe{
     font-size: 22px;
     color: white;
 }
+
 
 
 
@@ -1034,5 +1035,36 @@ iframe{
 @media only screen and (max-width: 450px){
     .faq-h1{
         font-size: 32px;
+    }
+}
+@media only screen and (max-width: 950px){
+    .welcome-iframe-container{
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 860px){
+    .courses-welcome-h1{
+        font-size: 40px;
+    }
+    .courses-subtitle{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 640px){
+    .welcome-iframe-container{
+        width: 95%;
+    }
+    .course-container{
+        width: 95%;
+        height: 15%;
+        margin: 10px 0px;
+    }
+    .course-video{
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 640px){
+    .course-description{
+        font-size: 18px;
     }
 }
